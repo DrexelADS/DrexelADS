@@ -2,6 +2,8 @@
        !! Welcome to DrexelADS
 =======================================
 
+# Python will be the general language,
+# unless y'all prefer C or Java!
 [python]
 def first_func():
     print("We're so glad to have you!")
