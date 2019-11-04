@@ -6,14 +6,30 @@
 def first_func():
     print("We're so glad to have you!")
 [/python]
+------------ beg_meeting1 ------------
 
 # Here's what we're going to cover today:
 1) What is DrexelADS?
+    => Mission statement explained
+    => Aspirations
 
 2) Is this the right club for you?
+    => How do we help?
+    => What can we do for you right now?
 
 3) What is a "regular" meeting like?
+    => Weekly tech updates
+        -> Pizza!
+    => Last Week Review
+    => Data Structure Discussion
+    => Common Interview Questions
+    => <Coding Challenge>
+    => Public Review
+    => Next Week Peak
 
 4) <Group Activity - turbotoaster.notes>
 
 5) Next Week Peak
+    => Linked List
+
+------------ end_meeting1 ------------
