@@ -6,6 +6,7 @@
 def first_func():
     print("We're so glad to have you!")
 [/python]
+
 ------------ beg_meeting1 ------------
 
 # Here's what we're going to cover today:
