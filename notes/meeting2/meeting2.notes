@@ -1,0 +1,45 @@
+=======================================
+           !! Linked Lists
+=======================================
+
+[python]
+
+class LinkedListNode:
+
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+        self.last = None
+
+[/python]
+
+------------ beg_meeting2 ------------
+
+# Here's what we're going to cover today:
+1) Introduction to Linked Lists
+    => Fundamental to most other structures
+    a) Simple linked lists
+    b) Double linked lists
+        => Can traverse in two directions
+    c) Circular linked lists
+        => May be simple or double
+
+2) Common Linked List Algorithms
+    a) Simple Insertion
+    b) Traversal
+    c) Traversal Insertion
+    d) Removal
+    d) Reverse
+    e) Find the Middle Node
+
+3) Most Common Interview Questions
+    a) Any common algorithm question
+    b) Very Large Number Math
+        => Typically reversed input
+
+4) <Group Activity - llcalculator.notes>
+
+5) Next Week Peak
+    => Stacks + Queues (LIFO/FIFO)
+
+------------ end_meeting2 ------------
