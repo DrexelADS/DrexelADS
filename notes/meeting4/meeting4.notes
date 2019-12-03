@@ -1,0 +1,39 @@
+1) Typical Technical Interview Questions
+    a) Non-technical
+        -> Tell me about a project on your resume
+        -> Describe a challenge you once faced
+    b) Technical
+        -> Solve this logic puzzle
+        -> Write the code for this
+2) Answering a Non-technical question
+    => Use what Coop 101 taught you!
+    => Try to always answer with a short story
+    => Keep answers to about a minute or shorter
+3) Answering a Technical question
+    a) Assumptions
+        => Always ask to clarify anything unclear
+    b) Potential solutions
+        => Brute Force 
+        --> This is the most straight-forward
+        --> Often slowest as well
+        => Optimize
+        --> Are you missing important information?
+    c) Discussing complexity
+        => Use Big O (academically, big theta)
+        => If you have a loop, it's usually Linear [O(N)]
+        => If you have loops in loops, it's usually N^loop_count
+4) Drafting design in code
+    -> Write some pseudocode or draw a design
+    -> Test it with a few examples
+    -> Ask your interviewer questions
+5) Writing the solution
+    -> Use good variable and function names
+    -> If you're stuck, ask clarifying questions
+    -> !TEST YOUR CODE AS YOU WRITE IT
+6) Testing the solution
+    -> Make up a few examples
+    -> Run through them by hand explore your own code
+7) Receiving feedback
+    -> If the interviewer give you suggestions, use them!
+    -> Never feel like you failed
+    -> Even bad interviews may end in good results!
