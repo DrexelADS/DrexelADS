@@ -1,0 +1,61 @@
+=======================================
+        <TurboToaster Activity>
+=======================================
+
+------------ beg_activity1 ------------
+
+# This activity will be on paper or on
+# the whiteboard. It will not require
+# any digital devices.
+
+Description:
+    You and several other designers have 
+    been employed by Wacky Toaster Co. 
+    to create the ultimate toaster. 
+    Only one problem, the position said
+    "Entry Level - SDE-T", and no one 
+    explained that SDE-T stood for 
+    "Specialest in Wacky Edibles - Toast"
+
+The Job:
+    Form a group of 2-4 people and get
+    a piece of paper. Your group is 
+    responsible for designing every 
+    piece of this toaster from a high
+    -level perspective. 
+
+Requirements:
+    1) The toaster should have at basic
+    kitchen countertop functionality,
+    including the ability to toast two
+    items at once for a certain amount
+    of time.
+
+    2) The toaster needs a cool name.
+    Everything in tech has a cool name.
+    Research buzzwords if you need to.
+
+    3) Your manager at TurboToaster
+    has given you creative liberty to
+    decide what makes this toaster
+    so wacky. Go wild!
+
+Expected Output:
+    # At least 1 Sketch of the toaster,
+    # if you need more than one to really
+    # show it off, feel free 🍞
+
+    # A class diagram of the different
+    # objects that make this toaster 
+    # run in software. Assume some poor
+    # "Entry Level - SDE-I" (implementer)
+    # will have to make sense of this
+    # later.
+
+    # Present your toaster to everyone!
+    # At the end, we'll vote on the true
+    # "TurboToaster" which may appear 
+    # again in future meetings 😉
+
+
+------------ end_activity1 ------------

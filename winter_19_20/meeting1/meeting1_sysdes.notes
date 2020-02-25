@@ -1,0 +1,29 @@
+=======================================
+       !! Welcome to DrexelADS
+=======================================
+
+[c]
+    MEETING m1 = SYSTEM.NEW()
+    m1.DESIGN()
+[/c]
+
+------------ beg_meeting1 ------------
+
+# Welcome Back!
+1) What is DrexelADS?
+    => Fall Term Recap
+    => Why didn't we hear from you?
+    => Winter Term Goals
+
+2) The System Design Interview
+    => What is it?
+    => When will I see this?
+    => How can I prepare for it?
+
+3) <Walkthrough - general_system_design.notes>
+
+4) What's Next?
+    => Weeks 8, 9, 10
+    => How Do I Get More Involved?
+
+------------ end_meeting1 ------------

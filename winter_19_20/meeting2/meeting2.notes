@@ -1,0 +1,30 @@
+=======================================
+       !! Welcome to DrexelADS
+=======================================
+
+[c]
+    MEETING m2 = SYSTEM.NEW("url_shortener")
+    m2.DESIGN()
+[/c]
+
+------------ beg_meeting2 ------------
+
+# Sign In before we begin, please!
+1) Rest of Term Plan
+    => Work together through 1-2 more SysDesign 
+        Questions
+    => Start planning for Spring Term
+    => Find Funding!
+
+2) The System Design Interview (RECAP)
+    => What is it?
+    => When will I see this?
+    => How can I prepare for it?
+
+3) <Walkthrough - link_shortener_sysdesign.notes>
+
+4) What's Next?
+    => Weeks [9, 10]
+    => We want y'all to get involved!
+
+------------ end_meeting2 ------------

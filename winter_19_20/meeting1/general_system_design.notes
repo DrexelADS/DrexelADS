@@ -1,0 +1,101 @@
+// Adapted from the System Design Cheatsheet
+// by Github User vasanthk. February 17, 2020
+// https://gist.github.com/vasanthk/485d1c25737e8e72759f
+
+# Basic Steps
+1) Clarify and agree on the scope of the system
+    => User cases
+    => Who is going to use it?
+    => How are they going to use it?
+
+2) Constraints
+    => Mainly identify traffic and data handling constraints at scale.
+    => Scale of the system
+        -> Requests per second
+        -> Requests types
+        -> Data written per second 19kiB
+        -> Data read per second 300kiB
+    => Special system requirements
+        -> Multi-threading? 
+        -> Read or write oriented?
+
+3) High level architecture design
+    => Sketch the important components and connections 
+        -> Avoid most details at this point
+    => Application service layer
+        -> List different services required
+    => Data Storage layer
+        -> Includes webserver 
+        -> Load balancer 
+        -> Database 
+        -> Caching systems
+
+4) Component Design
+    => Component + specific APIs required for each of them.
+    => Object oriented design for functionalities.
+    => Map features to modules
+        -> One scenario for one module
+    => Consider the relationships among modules
+        -> Certain functions must have unique instance
+        -> Core object can be made up of many other objects
+        -> What inherits from what?
+
+5) Understanding Bottlenecks
+    => Does your system need a load balancer?
+    => Is the data so huge that you need to distribute your 
+        database on multiple machines?
+    => What are some of the downsides that these solutions cause?
+    => Is the database too slow and does it need some in-memory caching?
+
+6) Scaling your abstract design
+    a) Vertical scaling
+        => Scale by adding more power to your existing machine.
+    b) Horizontal scaling
+        => Scale by adding more machines into your pool of resources.
+    c) Caching
+        => Load balancing 
+            -> Helps scale horizontally
+            -> Ever-increasing number of servers
+            -> Enables you to make better use of resources 
+        
+        => Application caching 
+            -> Requires explicit application integration
+
+        => Database caching 
+            -> Most modern databases cache by default 
+            -> Initial settings will be optimized for a generic usecase
+
+        => In-memory caches
+            -> Most powerful
+            -> Store their entire set of data in memory 
+            -> Accesses to RAM are orders of magnitude faster
+
+# Key topics for designing a system
+1) Concurrency
+    => Do you understand threads, deadlock, and starvation? 
+    => Do you know how to parallelize algorithms? 
+    => Do you understand consistency and coherence?
+
+2) Networking
+    => Do you roughly understand TCP/IP? 
+    => Do you know the difference between throughput and latency, 
+        and when each is the relevant factor?
+
+3) Abstraction
+    => You should understand the systems you’re building upon
+    => Do you know roughly how an OS, file system, and database work? 
+    => Do you know about the various levels of caching in a modern OS?
+
+4) Real-World Performance
+    => Be familiar with the speed of everything your computer can do, 
+        including the relative performance of RAM, disk, SSD and your network.
+
+5) Estimation
+    => Helps you narrow down the list of possible solutions 
+    => Only a few prototypes or micro-benchmarks to write
+
+6) Availability & Reliability
+    => Are you thinking about how things can fail?
+        -> What about in a distributed environment? 
+    => Do know how to design a system to cope with network failures? 
+    => Do you understand durability?
