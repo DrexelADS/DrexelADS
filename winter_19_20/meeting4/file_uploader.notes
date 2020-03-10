@@ -1,0 +1,29 @@
+# Functional Requirements
+
+1) Any user should be able to upload any file
+    and have a link to it in as much time as
+    it takes to upload.
+
+2) Users should optionally be able to pick a 
+    custom link name for their file.
+
+3) Using external authentication service,
+    users should be able to control access 
+    to their files.
+
+4) Users and guests should be prevented from 
+    uploading more than 1Gb a day.
+
+5) Users and guests shouldn't be allowed to
+    download more than 3 files per day.
+
+# Non-Functional Requirements
+
+1) The system should have a disaster recovery
+    plan inclusive of active volcanos.
+
+# Extended Requirements
+
+1) Our service should watermark all files 
+    downloaded with a secret message in the 
+    file.

@@ -1,0 +1,29 @@
+=======================================
+       !! Welcome to DrexelADS
+=======================================
+
+[c]
+    MEETING m4 = SYSTEM.NEW("file_uploader")
+    m4.FEED_DESIGNERS('pizza')
+    m4.DESIGN()
+[/c]
+
+------------ beg_meeting4 ------------
+
+# Sign In before we begin, please!
+## ----Let's jump right in!----
+1) System Design Question <file_uploader.notes>
+    -> 30 - 45 minutes
+
+2) What does next term look like?
+    => Member Driven Meetings
+    => Membership Definition
+
+3) Election
+    => All offices running for reelection
+    => New roles to be created
+    => Voting will be held online
+    => Active Members only
+        -> Q"Why are you part of DrexelADS?"
+
+------------ end_meeting4 ------------
